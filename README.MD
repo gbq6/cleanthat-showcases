@@ -29,7 +29,7 @@ Then reset the sub-modules with:
 First in cleanthat repository:
 
     cd cleanthat
-    mvn install -pl :maven -am
+    mvn install -pl :cleanthat-maven-plugin -am
     
 Then in this repository:
 
